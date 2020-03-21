@@ -4250,7 +4250,7 @@ tbody.collapse.show {
 }
 
 .card-text {
-  padding-bottom: .25rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
