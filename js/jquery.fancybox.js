@@ -55,7 +55,7 @@
     arrows: true,
 
     // Should display counter at the top left corner
-    infobar: false,
+    infobar: true,
 
     // Should display close button (using `btnTpl.smallBtn` template) over the content
     // Can be true, false, "auto"
@@ -252,7 +252,7 @@
 
     // Set `touch: false` to disable panning/swiping
     touch: {
-      vertical: true, // Allow to drag content vertically
+      vertical: false, // Allow to drag content vertically
       momentum: true // Continue movement after releasing mouse/touch when panning
     },
 
@@ -331,11 +331,11 @@
 
     // Clicked on the content
     clickContent: function (current, event) {
-      return current.type === "image" ? "zoom" : false;
+      return current.type === "image" ? "zoom" : true;
     },
 
     // Clicked on the slide
-    clickSlide: "close",
+    clickSlide: "next",
 
     // Clicked on the background (backdrop) element;
     // if you have not changed the layout, then most likely you need to use `clickSlide` option
