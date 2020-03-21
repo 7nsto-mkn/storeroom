@@ -440,8 +440,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
-  font-weight: 400;
+  font-size: .75rem;
 }
 
 mark,
@@ -8745,6 +8744,10 @@ a.text-dark:hover, a.text-dark:focus {
 /*# sourceMappingURL=bootstrap.css.map */
 
 /* add to */
+.card p {
+  margin-bottom: 0;
+}
+
 @media (max-width: 575.98px) {
   .row.py-3.px-2 {
     padding-left: 0.5rem !important;
