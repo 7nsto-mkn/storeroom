@@ -335,7 +335,7 @@
     },
 
     // Clicked on the slide
-    clickSlide: "next",
+    clickSlide: "close",
 
     // Clicked on the background (backdrop) element;
     // if you have not changed the layout, then most likely you need to use `clickSlide` option
