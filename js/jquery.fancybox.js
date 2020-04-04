@@ -331,7 +331,7 @@
 
     // Clicked on the content
     clickContent: function (current, event) {
-      return current.type === "image" ? "zoom" : true;
+      return current.type === "image" ? "zoom" : false;
     },
 
     // Clicked on the slide
@@ -353,7 +353,7 @@
       preventCaptionOverlap: false,
       idleTime: false,
       clickContent: function (current, event) {
-        return current.type === "image" ? "toggleControls" : true;
+        return current.type === "image" ? "toggleControls" : false;
       },
       clickSlide: function (current, event) {
         return current.type === "image" ? "toggleControls" : "close";
