@@ -353,7 +353,7 @@
       preventCaptionOverlap: false,
       idleTime: false,
       clickContent: function (current, event) {
-        return current.type === "image" ? "toggleControls" : false;
+        return current.type === "image" ? "toggleControls" : true;
       },
       clickSlide: function (current, event) {
         return current.type === "image" ? "toggleControls" : "close";
