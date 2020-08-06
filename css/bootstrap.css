@@ -8739,11 +8739,19 @@ a.text-dark:hover, a.text-dark:focus {
 /*# sourceMappingURL=bootstrap.css.map */
 
 /* add to */
+h1 a {
+  color: #333;
+}
+
 .card p {
   margin-bottom: 0;
 }
 .row {
   overflow: hidden;
+}
+.nav-area h2,
+.nav-area a {
+  transform: rotate(0.03deg);
 }
 
 @media (max-width: 575.98px) {
