@@ -8743,6 +8743,10 @@ h1 a {
   color: #333;
 }
 
+h1 a:hover {
+  color: #fff;
+}
+
 .card p {
   margin-bottom: 0;
 }
