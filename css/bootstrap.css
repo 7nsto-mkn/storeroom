@@ -4261,7 +4261,8 @@ tbody.collapse.show {
 
 .card-link {
   color: #ff50ac;
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: .75rem;
   position: absolute;
   bottom: .5rem;
@@ -4272,6 +4273,14 @@ tbody.collapse.show {
 .card-link:hover {
   color: #ff1d94;
   text-decoration: underline;
+}
+
+.card-link::before {
+  content: '▲';
+  display: inline-block;
+  font-size: 8px;
+  transform: rotate(90deg);
+  padding-right: 0.5em;
 }
 
 .card-header {
